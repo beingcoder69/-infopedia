@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infopedia</title>
+    <meta name="apple-mobile-web-app-capable" content="yes"> <!-- Add this line for home screen web app -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #4169e1;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative; /* Ensure proper positioning of logo */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            margin-right: 10px;
+            border-radius: 5px 5px 0 0;
+            background-color: lightorange;
+        }
+
+        nav ul li a:hover {
+            background-color: #E0F9FF;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            display: none;
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #808080;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Show active section */
+        section:target {
+            display: block;
+        }
+
+        /* CSS for the logo */
+        #logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 75px;
+            height: auto;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            window.location.href = "#home"; // Redirect to the home section when the page is loaded
+        };
+    </script>
+</head>
+<body>
+    <header>
+        <img id="logo" src="https://i.ibb.co/6yyRC2f/moye.jpg" alt="Infopedia Logo"> <!-- Add the logo here -->
+        <h1>Welcome to Infopedia</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#science">Science & Technology</a></li>
+                <li><a href="#history">History & Historic Battle</a></li>
+                <li><a href="#geography">Geography & The World</a></li>
+                <li><a href="#life">Life Style</a></li>
+                <li><a href="#misc">Miscellaneous</a></li>
+                <li><a href="#aboutus">About Us</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Featured Articles</h2>
+            <!-- Add featured articles here -->
+            <p>Here you can find many articles like<br>1) Leadership for students<br>2) Islamic Knowledge<br>3) Global Warming & Climate change<br>4) Artificial Intelligence<br>5) History of Bangladesh<br>6) World War 1, 2<br>and many more...</p>
+        </section>
+
+        <section id="science">
+            <h2>Science & Technology</h2>
+            <h3>Artificial Intelligent</h3>
+            <!-- Add subcategories and articles here -->
+            <p>Still working on it...</p>
+        </section>
+
+        <section id="history">
+            <h2>History & Historic Battle</h2>
+            <!-- Add subcategories and articles here -->
+            <p>Still working on it...</p>
+        </section>
+
+        <section id="geography">
+            <h2>Geography & The World</h2>
+            <!-- Add subcategories and articles here -->
+            <p>Still working on it...</p>
+        </section>
+
+        <section id="life">
+            <h2>Life Style</h2>
+            <h3>Leadership for students</h3>
+            <!-- Add subcategories and articles here -->
+        </section>
+
+        <section id="misc">
+            <h2>Miscellaneous</h2>
+            <!-- Add subcategories and articles here -->
+            <p>Still working on it...</p>
+        </section>
+    </main>
+
+    <section id="aboutus">
+        <h2>About Us</h2>
+        <!-- Add subcategories and articles here -->
+        <h2>Few words of the Creator:</h2>
+        <p>Greetings! I'm Zawad Alif Bhuiyan, and I'm passionate about playing chess, Rubix Cube and Creating website do coding  With a background i read in class 7 In Ideal School And College(Mugda Branch), I've dedicated myself to help others in help. I thrive on doing youtube, coding, scouting. Join me as I continue to share cool information with you.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Infopedia . All rights reserved.</p>
+    </footer>
+</body>
+</html>
